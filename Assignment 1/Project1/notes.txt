@@ -1,0 +1,3 @@
+Poly constructor has two parameters - largest expected exponent, coefficient of LEE
+Second Poly constructor takes in Poly object (by value) and makes a deep copy
+default exponent argument is 0 if left empty
