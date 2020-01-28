@@ -19,7 +19,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Poly.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -31,5 +31,10 @@
     <ClInclude Include="Poly.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simplecompile.sh">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
