@@ -107,7 +107,7 @@ Poly Poly::operator+=(const Poly& Other) {
 		Terms[i] += Other.Terms[i];
 
 	maxExp = newMaxExp;
-	delete oldTerms;
+	delete[] oldTerms;
 	return *this;
 }
 Poly Poly::operator+(const Poly& Other) {
@@ -129,7 +129,7 @@ Poly Poly::operator-=(const Poly& Other) {
 		Terms[i] -= Other.Terms[i];
 
 	maxExp = newMaxExp;
-	delete oldTerms;
+	delete[] oldTerms;
 
 	return *this;
 }

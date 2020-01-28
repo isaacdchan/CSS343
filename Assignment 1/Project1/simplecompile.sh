@@ -1,10 +1,8 @@
 date
 
-echo "* compiling with clang++ to create an executable called myprogram"
-g++ .cpp -o myprogram
-
-echo " running myprogram"
-./myprogram > output.txt 2>&1
+echo "* compiling with g++ to create an executable called myprogram"
+g++ --version
+g++ -std=c++14 -Wall -Wextra -Wno-sign-compare *.cpp -g -o myprogram
 
 # valgrind will detect memory leaks
 echo " running with valgrind"

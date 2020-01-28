@@ -89,7 +89,7 @@ int main() {
 	//testAdditionSubtraction();
 	//testMultiplication();
 	//testEquivalencies();
-	testInsertion();
+	//testInsertion();
 
 	cout << endl << "Passed: " << TotalPassed << "/" << TotalTests << endl;
 	return 0;
